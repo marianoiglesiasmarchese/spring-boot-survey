@@ -1,6 +1,8 @@
 # spring-boot-survey
 Simple spring boot survey service
 
+~THIS SERVICE NEEDS IMPROVEMENTS~
+
 ## links of interest
 * [**Survey template generator**](https://docs.google.com/spreadsheets/d/1l1v_3iXLzMXF6hJg1Y8kD4F584059_5jh-gz6_-ETsw/edit?usp=sharing)
 * [**Exporting google spreadsheet to JSON**](http://blog.pamelafox.org/2013/06/exporting-google-spreadsheet-as-json.html)
