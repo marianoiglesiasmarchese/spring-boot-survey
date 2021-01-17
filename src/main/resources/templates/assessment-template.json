@@ -1,0 +1,495 @@
+{
+  "name": "TEMPLATE",
+  "groups": [
+    {
+      "id": "G2",
+      "label": "Security Assessment",
+      "nav": "Security",
+      "metadata": {
+        "background": ""
+      },
+      "sections": [
+        {
+          "id": "S7",
+          "label": "Configuration Management",
+          "nav": "Configuration Management",
+          "metadata": {
+            "background": ""
+          },
+          "questions": [
+            {
+              "id": "Q13",
+              "label": "Are there processes in place to ensure that servers are configured securely?",
+              "type": "radio",
+              "metadata": {},
+              "options": [
+                "Yes",
+                "No",
+                "I don't know"
+              ]
+            },
+            {
+              "id": "Q14",
+              "label": "Is company data on employee devices encrypted?",
+              "type": "radio",
+              "metadata": {},
+              "options": [
+                "Yes",
+                "No",
+                "I don't know"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "S8",
+          "label": "Employee Training",
+          "nav": "Employee Training",
+          "metadata": {
+            "background": ""
+          },
+          "questions": [
+            {
+              "id": "Q15",
+              "label": "Are phishing tests conducted?",
+              "type": "radio",
+              "metadata": {},
+              "options": [
+                "Yes",
+                "No",
+                "I don't know"
+              ]
+            },
+            {
+              "id": "Q16",
+              "label": "How often is security training provided to all employees post-hiring?",
+              "type": "slider",
+              "metadata": {},
+              "options": [
+                "Never",
+                "6 months",
+                "12 months",
+                "18 months",
+                "24 months"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "S9",
+          "label": "Logging & Monitoring",
+          "nav": "Logging & Monitoring",
+          "metadata": {
+            "background": ""
+          },
+          "questions": [
+            {
+              "id": "Q17",
+              "label": "Is SIEM technology used?",
+              "type": "radio",
+              "metadata": {},
+              "options": [
+                "Yes",
+                "No",
+                "I don't know"
+              ]
+            },
+            {
+              "id": "Q18",
+              "label": "Are all critical events logged (account login, edits to critical data, etc.)?",
+              "type": "radio",
+              "metadata": {},
+              "options": [
+                "Yes",
+                "No",
+                "I don't know"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "S10",
+          "label": "Network Security",
+          "nav": "Network Security",
+          "metadata": {
+            "background": ""
+          },
+          "questions": [
+            {
+              "id": "Q19",
+              "label": "Is a VPN required to access internal company resources?",
+              "type": "radio",
+              "metadata": {},
+              "options": [
+                "Yes",
+                "No",
+                "I don't know"
+              ]
+            },
+            {
+              "id": "Q20",
+              "label": "What technologies are used to protect the perimeter of the company network?",
+              "type": "dropdown",
+              "metadata": {},
+              "options": [
+                "None",
+                "VPN + firewall",
+                "zero-trust architecture"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "S11",
+          "label": "Resiliency",
+          "nav": "Resiliency",
+          "metadata": {
+            "background": ""
+          },
+          "questions": [
+            {
+              "id": "Q21",
+              "label": "How often is the backup and recovery plan tested?",
+              "type": "slider",
+              "metadata": {},
+              "options": [
+                "Never",
+                "6 months",
+                "12 months",
+                "18 months",
+                "24 months"
+              ]
+            },
+            {
+              "id": "Q22",
+              "label": "Do you have an incident response plan that has been tested in the past 12 months?",
+              "type": "radio",
+              "metadata": {},
+              "options": [
+                "Yes",
+                "No",
+                "I don't know"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "S12",
+          "label": "Risk Assessment",
+          "nav": "Risk Assessment",
+          "metadata": {
+            "background": ""
+          },
+          "questions": [
+            {
+              "id": "Q23",
+              "label": "Has a full cyber risk assessment been conducted, and the results approved by leadership?",
+              "type": "radio",
+              "metadata": {},
+              "options": [
+                "Yes",
+                "No",
+                "I don't know"
+              ]
+            },
+            {
+              "id": "Q24",
+              "label": "Is there a member of management whose full time responsibility is security?",
+              "type": "radio",
+              "metadata": {},
+              "options": [
+                "Yes",
+                "No",
+                "I don't know"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "S13",
+          "label": "Vendor Security",
+          "nav": "Vendor Security",
+          "metadata": {
+            "background": ""
+          },
+          "questions": [
+            {
+              "id": "Q25",
+              "label": "Is there a formal process to review the cyber risk of vendors before doing business?",
+              "type": "radio",
+              "metadata": {},
+              "options": [
+                "Yes",
+                "No",
+                "I don't know"
+              ]
+            },
+            {
+              "id": "Q26",
+              "label": "Are all vendors that have access to critical assets (data, IP, network connectivity) documented?",
+              "type": "radio",
+              "metadata": {},
+              "options": [
+                "Yes",
+                "No",
+                "I don't know"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "S14",
+          "label": "Vulnerability Management",
+          "nav": "Security Assessment",
+          "metadata": {
+            "background": ""
+          },
+          "questions": [
+            {
+              "id": "Q27",
+              "label": "Are all applications and servers scanned for vulnerabilities regularly?",
+              "type": "radio",
+              "metadata": {},
+              "options": [
+                "Yes",
+                "No",
+                "I don't know"
+              ]
+            },
+            {
+              "id": "Q28",
+              "label": "Do you conduct penetration tests, either internally or contracted by a Third Party?",
+              "type": "dropdown",
+              "metadata": {},
+              "options": [
+                "No",
+                "Third party",
+                "Internal",
+                "Both"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "G1",
+      "label": "Business Assessment",
+      "nav": "Business",
+      "metadata": {
+        "background": ""
+      },
+      "sections": [
+        {
+          "id": "S1",
+          "label": "Dependencies",
+          "nav": "Dependencies",
+          "metadata": {
+            "background": ""
+          },
+          "questions": [
+            {
+              "id": "Q1",
+              "label": "Percentage of revenue generated by web application service (excluding payment systems)",
+              "type": "slider",
+              "metadata": {},
+              "options": [
+                "0",
+                "10",
+                "20",
+                "30",
+                "40",
+                "50",
+                "60",
+                "70",
+                "80",
+                "90",
+                "100"
+              ]
+            },
+            {
+              "id": "Q2",
+              "label": "Does the company offer professional services (i.e billable hours, e.g. medical, legal, accounting, consulting)?",
+              "type": "radio",
+              "metadata": {},
+              "options": [
+                "Yes",
+                "No",
+                "I don't know"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "S2",
+          "label": "Employees",
+          "nav": "Employees",
+          "metadata": {
+            "background": ""
+          },
+          "questions": [
+            {
+              "id": "Q3",
+              "label": "Number of employees",
+              "type": "slider",
+              "metadata": {},
+              "options": [
+                "50",
+                "500",
+                "5k",
+                "50k",
+                "500k"
+              ]
+            },
+            {
+              "id": "Q4",
+              "label": "Do you have a corporate network",
+              "type": "radio",
+              "metadata": {},
+              "options": [
+                "Yes",
+                "No",
+                "I don't know"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "S3",
+          "label": "Innovation",
+          "nav": "Innovation",
+          "metadata": {
+            "background": ""
+          },
+          "questions": [
+            {
+              "id": "Q5",
+              "label": "Annual R&D spend",
+              "type": "slider",
+              "metadata": {},
+              "options": [
+                "1M",
+                "10M",
+                "100M"
+              ]
+            },
+            {
+              "id": "Q6",
+              "label": "Does your company employ outsourced labor with access to corporate networks",
+              "type": "radio",
+              "metadata": {},
+              "options": [
+                "Yes",
+                "No",
+                "I don't know"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "S4",
+          "label": "Records",
+          "nav": "Records",
+          "metadata": {
+            "background": ""
+          },
+          "questions": [
+            {
+              "id": "Q7",
+              "label": "Total number of records of Personally Identifiable Information (PII)* maintained by the enterprise, maximum during the year",
+              "type": "slider",
+              "metadata": {},
+              "options": [
+                "5K",
+                "50K",
+                "500K",
+                "5M",
+                "50M",
+                "500M"
+              ]
+            },
+            {
+              "id": "Q8",
+              "label": "Total number of unique records of payment card holders as Payment Card Information (PCI)* processed by the enterprise, maximum held during the year",
+              "type": "slider",
+              "metadata": {},
+              "options": [
+                "5K",
+                "50K",
+                "500K",
+                "5M",
+                "50M",
+                "500M"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "S5",
+          "label": "Contractual",
+          "nav": "Contractual",
+          "metadata": {
+            "background": ""
+          },
+          "questions": [
+            {
+              "id": "Q9",
+              "label": "Does the company offer Service Level Agreements (SLA) with service level credit recourse, and if so to what extent does the SLA language potentially expose the company?",
+              "type": "dropdown",
+              "metadata": {},
+              "options": [
+                "None",
+                "Yes - Low",
+                "Yes - Average",
+                "Yes - High"
+              ]
+            },
+            {
+              "id": "Q10",
+              "label": "Are there fines associated with losing data?",
+              "type": "radio",
+              "metadata": {},
+              "options": [
+                "Yes",
+                "No",
+                "I don't know"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "S6",
+          "label": "Legal",
+          "nav": "Legal",
+          "metadata": {
+            "background": ""
+          },
+          "questions": [
+            {
+              "id": "Q11",
+              "label": "Do contracts include indirect damages limitations",
+              "type": "radio",
+              "metadata": {},
+              "options": [
+                "Yes",
+                "No",
+                "I don't know"
+              ]
+            },
+            {
+              "id": "Q12",
+              "label": "Do contracts include indirect damages exclusions",
+              "type": "radio",
+              "metadata": {},
+              "options": [
+                "Yes",
+                "No",
+                "I don't know"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

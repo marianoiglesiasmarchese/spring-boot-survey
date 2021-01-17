@@ -1,0 +1,124 @@
+{
+	"info": {
+		"_postman_id": "353e757e-20eb-4dd8-8d01-3b093df46923",
+		"name": "survey-service",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "assessment",
+			"item": [
+				{
+					"name": "assessment",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/assessments/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"assessments",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "assessment",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"brokerSecurityAnswersLastChange\": 1566507948780,\n    \"buyerSecurityAnswersLastChange\": 0,\n    \"brokerBusinessAnswersLastChange\": 0,\n    \"buyerBusinessAnswersLastChange\": 0,\n    \"answers\": [\n        {\n            \"buyerAnswer\": [],\n            \"brokerAnswer\": [\n                0\n            ],\n            \"questionId\": \"Q13\",\n            \"groupId\": \"G2\"\n        },\n        {\n            \"buyerAnswer\": [],\n            \"brokerAnswer\": [\n                1\n            ],\n            \"questionId\": \"Q14\",\n            \"groupId\": \"G2\"\n        },\n        {\n            \"questionId\": \"Q15\",\n            \"groupId\": \"G2\",\n            \"buyerAnswer\": [],\n            \"brokerAnswer\": [\n                1\n            ]\n        }\n    ],\n    \"assessment_id\": 1\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/assessments",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"assessments"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "user",
+			"item": [
+				{
+					"name": "user",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"email\": \"mariano@email.com\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/users",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "add assessment",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"id\" : \"101\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/users/assessment",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"users",
+								"assessment"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
